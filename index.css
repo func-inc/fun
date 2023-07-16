@@ -1,0 +1,17 @@
+.carousel-item {
+  width: 50vh;
+}
+
+.carousel {
+  background-color: black;
+}
+
+video {
+  width: 50vh;
+  height: 50vh;
+}
+
+h1 {
+  text-align: center;
+  font-size: 8vh;
+}

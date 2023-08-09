@@ -119,10 +119,58 @@
     </video>
     <br />
     <hr />
-    <video id="video" width="240" height="240" controls poster="test/meru.png">
-      <source src="test/rapidsave.com_-ic7byky5gyua1 (2).mp4" type="video/mp4" />
-      Your browser does not support the video tag.
-    </video>
+
+    <div id="meru" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <video
+            id="video"
+            width="240"
+            height="240"
+            controls
+            poster="test/meru.png"
+          >
+            <source
+              src="test/rapidsave.com_-ic7byky5gyua1.mp4"
+              type="video/mp4"
+            />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="carousel-item">
+          <video
+            id="video"
+            width="240"
+            height="240"
+            controls
+            poster="test/meru2.png"
+          >
+            <source src="test/meru2.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#meru"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#meru"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <hr />
 
     <div id="waifu" class="carousel slide">
       <div class="carousel-inner">

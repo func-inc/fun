@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Hall of Fame</title>
     <script src="js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="index.css" />
@@ -218,9 +218,51 @@
       </button>
     </div>
     <hr />
-    <video id="video" width="240" height="240" controls poster="test/izzy.png">
-      <source src="test/izzy.mp4" type="video/mp4" />
-      Your browser does not support the video tag.
-    </video>
+    <div id="izzy" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <video
+            id="video"
+            width="240"
+            height="240"
+            controls
+            poster="test/izzy.png"
+          >
+            <source src="test/izzy.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="carousel-item">
+          <video
+            id="video"
+            width="240"
+            height="240"
+            controls
+            poster="test/izzy1.jpg"
+          >
+            <source src="test/izzy1.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#izzy"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#izzy"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
   </body>
 </html>
